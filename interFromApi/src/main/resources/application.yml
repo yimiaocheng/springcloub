@@ -1,0 +1,13 @@
+server:
+  port: 8762
+
+spring: 
+  application: 
+    name: holiday-car-supplier #该名字将注册到eureka注册中心
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+
